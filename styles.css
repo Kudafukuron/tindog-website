@@ -25,6 +25,18 @@ body {
   right: 23%;
 }
 
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%; 
+  }
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -174,4 +186,41 @@ body {
 
 .after-header {
   margin-bottom: 5%;
+}
+
+/* Call of Action section */
+#callAction {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15% 8%;
+}
+
+#callAction h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#callAction button {
+  font-family: 'sans-serif';
+  margin: 4% 2%;
+  border-radius: 5px;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 8.5% 0 6.5%;
+}
+
+#footer p {
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'sans-serif';
+}
+
+#footer i {
+  margin: 0 0.5% 1.2%;
 }
